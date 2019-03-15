@@ -1,4 +1,10 @@
-Gaussian_elm function 
+Introduction:
+
+Gaussian elimination (also known as row reduction) is an algorithm for solving systems of linear equations. Please refer to the below wikipedia page to learn more about it. 
+
+https://en.wikipedia.org/wiki/Gaussian_elimination
+
+Gaussian_elm function
 
 Mandatory arguments:
 

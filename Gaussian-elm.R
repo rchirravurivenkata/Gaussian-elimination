@@ -1,7 +1,7 @@
 ######################################################################################################################################
 #
 # Gaussian Elimination R code
-#   by Ramakanth Chirravuri Venkata
+#                    by Ramakanth Chirravuri Venkata
 # 
 #######################################################################################################################################
 
@@ -90,20 +90,3 @@ Gaussian_elm <- function(num_or_matrix,total_columns = 0, ByRow= F, rowScaling =
 
 
 
-########################################################################################################################################
-
-## For generating the ill-condition matrix (uses the suggestions provided in the class)
-## Incorporates the suggestion of parallelism
-
-
-# mato is for calculating the kappa of random matrices
-
-mato <- 0
-l <- 0
-while(mato < 100000){
-  a <- matrix(runif(110,0.00000000001,1), ncol =11)
-  mato <- kappa(a)
-  l <- a
-}
-
-########################################################################################################################################

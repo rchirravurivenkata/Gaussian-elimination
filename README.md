@@ -18,18 +18,18 @@ https://courses.engr.illinois.edu/cs357/su2013/lectures/lecture07.pdf
 *****num_or_matrix***** – The function can either take in numbers or a matrix.
 
 If the input is numbers: 
-*****total_columns***** - (By default its 0) must specify the total number of the columns (including the right hand side). 
+*****total_columns***** - (default is 0) must specify the total number of the columns (including the right hand side). 
 DO NOT use total columns argument if matrix is your input.
 
 Note: Total column argument requires total number of columns including the right hand side. The function recognizes the last column as the right hand side. 
 
 #### Optional arguments
 
-*****ByRow***** – (default = FALSE):  If the input values (numbers or matrix) are needed to be considered rowwise (or to be transposed). 
+*****ByRow***** – (default is FALSE):  If the input values (numbers or matrix) are needed to be considered rowwise (or to be transposed). 
 
-*****rowScaling***** – (default = FALSE): If rowscaling is required in addition to Gaussian elimination.
+*****rowScaling***** – (default is FALSE): If rowscaling is required in addition to Gaussian elimination.
 
-*****partialPivoting***** - (default = FALSE): If partial pivoting is required in addition to Gaussian elimination.
+*****partialPivoting***** - (default is FALSE): If partial pivoting is required in addition to Gaussian elimination.
 
 
 ## Directions
